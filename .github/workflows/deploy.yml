@@ -22,11 +22,16 @@ jobs:
         with:
           node-version: 20
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: npm run build:worker
+        run: pnpm run build:worker
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
