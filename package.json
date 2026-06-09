@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "^1.19.11",
-    "wrangler": "^3",
+    "wrangler": "^4",
     "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
     "@types/react": "^18",
