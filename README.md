@@ -1,49 +1,78 @@
-# Cooked this Paperfolio template with V0 | Here’s the template you can use for free
+# Mainline Next.js Template
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://v0.link/nikhil-shukla)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.link/paperfolio)
+Mainline is a free template built with shadcn/ui, Tailwind 4 and Next.js 15.
 
-![Paperfolio Template Preview](https://global.discourse-cdn.com/vercel/original/2X/e/e8a5d554ecf92e4adb4a718138c60ad7e0c7510e.png)
+- [Demo](https://mainline-nextjs-template.vercel.app/)
+- [Documentation](https://docs.shadcnblocks.com/templates/getting-started)
+- [Figma](https://www.figma.com/design/cFCLMj7DFv0sK7EVsqKeTa/Mainline?node-id=23250-13201&t=I1nAdchDpknii5Bd-1)
 
-I’ve been experimenting with **V0 - by Vercel**, and I rebuilt the popular **Paperfolio** layout originally created by **Brix Templates**.
-This is a community-made clone — all ownership of the original design stays with @brixtemplatesbrixtemplates.
-My goal was simply to recreate it in V0 so anyone can use or remix it.
+![Mainline NextJS Template screenshot](./public/og-image.jpg)
 
----
+## Getting Started
 
-## Live Demo & Template Access
+```bash
+npm install
+```
 
-**→  Template (Clone / Remix):** https://v0.link/paperfolio
+```bash
+npm run dev
+```
 
-**→  Live Preview:** https://v0-paperfolio.vercel.app
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+## Features
 
-## Video Walkthrough
+### Core Technology Stack
 
-**→ Watch the walkthrough on X:**
-[https://x.com/i/status/1994130537464910310](https://x.com/i/status/1994130537464910310)
+- **Next.js 15** with App Router
+- **Tailwind CSS 4** for styling
+- **shadcn/ui** components
+- **TypeScript** support
+- **React 19**
 
----
+### Key Features
 
-## What’s Inside the Template
+- **Shadcn UI**: uses [shadcn/ui](https://ui.shadcn.com/) core UI components
+- **Theme System**: Dark/light mode with `next-themes`, compatible with [tweakcn](https://tweakcn.com)
+- **Form Handling**: React Hook Form + Zod validation
+- **Server Actions**: Next-safe-action integration for server-side logic
+- **MDX Support**: For content pages
+- **Animations**: Motion library (Framer Motion) integration
+- **ESLint/Prettier**: Pre-configured code formatting and linting
+- **Custom Fonts**: DM Sans font family included
+- **Icons**: Lucide React + React Icons libraries
+- **Styleglide Integration**: For component previews/development
+- **Responsive Design**: Mobile-friendly layout
+- **SEO Ready**: Proper metadata and OG images included
 
-* Clean portfolio with hero section and highlight-style text blocks
-* Minimal, bold layout focused on showcasing your work
-* Reusable components built directly in V0
-* Easy to customize for personal portfolios or client sites
+### Pre-built Pages
 
----
+- Home/Landing page
+- About page
+- Pricing page
+- FAQ page
+- Contact page with form
+- Login/Signup pages
 
-## How to Use It
+### Blocks
 
-1. Open the template → https://v0.link/paperfolio
-2. Click on “Open in V0”
-3. Make your styling tweaks
-4. Deploy on Vercel
+- Hero section
+- Logo showcase/marquee
+- Features section
+- Resource allocation section
+- Testimonials with carousel
+- Pricing table
+- FAQ with accordion
+- Footer
+- Navigation bar
 
-That’s it — you have a clean, modern portfolio site ready to ship.
+## Deployment
 
----
+Production-ready and tested for deployment on [Vercel](https://vercel.com)
 
-If you end up customizing this, I’d like to see what you build.
+## Credits
+
+- Template by [shadcnblocks.com](https://shadcnblocks.com)
+- Design by [Callum Flack](https://x.com/callumflack)
+- Dev by [Yassine Zaanouni](https://x.com/YassineZaanouni)
+- Produced by [Rob Austin](https://x.com/ausrobdev)
